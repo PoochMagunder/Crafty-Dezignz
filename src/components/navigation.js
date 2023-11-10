@@ -19,13 +19,13 @@ const NavApp = () => {
                                 <Nav.Link as={Link} to='/'>
                                     Paintings
                                 </Nav.Link>
-                                <Nav.Link as={Link} to='/projects'>
+                                <Nav.Link as={Link} to='/'>
                                     Cross-stitch
                                 </Nav.Link>
-                                <Nav.Link as={Link} to='/contact'>
+                                <Nav.Link as={Link} to='/'>
                                     Custom Coasters
                                 </Nav.Link>
-                                <Nav.Link as={Link} to='/contact'>
+                                <Nav.Link as={Link} to='/'>
                                     Custom Order
                                 </Nav.Link>
                             </>
