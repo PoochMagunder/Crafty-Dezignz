@@ -7,12 +7,12 @@ const NavApp = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect className='Nav' bg='dark' expand='md' sticky='top'>
+            <Navbar collapseOnSelect className='Nav' expand='lg'>
                     <Navbar.Brand as={Link} to='/' className='brand'>
                         <Container className='title'>Crafty <span className='title2'>Dezignz</span></Container>
                     </Navbar.Brand>
                     <Container className='nav-container'>
-                    <Navbar.Toggle className='nav-button' aria-controls='navbar' />
+                    <Navbar.Toggle className='nav-button' aria-controls='navbar' variant='light' />
                     <Navbar.Collapse className='nav-collapse' id='navbar'>
                         <Nav className='nav-links ml-auto'>
                             <>

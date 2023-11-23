@@ -13,11 +13,11 @@
     text-align: center;
 }
 
-a {
+.footer-wrapper .links-container a {
     color: black;
     margin: 5px;
 }
 
-a:hover {
+.footer-wrapper .links-container a:hover {
     color: #F4D6CC;
 }
