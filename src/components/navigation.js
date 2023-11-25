@@ -16,16 +16,16 @@ const NavApp = () => {
                     <Navbar.Collapse className='nav-collapse' id='navbar'>
                         <Nav className='nav-links ml-auto'>
                             <>
-                                <Nav.Link as={Link} to='/'>
+                                <Nav.Link as={Link} to='/paintings'>
                                     Paintings
                                 </Nav.Link>
-                                <Nav.Link as={Link} to='/'>
+                                <Nav.Link as={Link} to='/cross-stitch'>
                                     Cross-stitch
                                 </Nav.Link>
-                                <Nav.Link as={Link} to='/'>
+                                <Nav.Link as={Link} to='/coasters'>
                                     Custom Coasters
                                 </Nav.Link>
-                                <Nav.Link as={Link} to='/'>
+                                <Nav.Link as={Link} to='/orders'>
                                     Custom Order
                                 </Nav.Link>
                             </>

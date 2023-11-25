@@ -1,0 +1,39 @@
+.paintings-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.paintings-wrapper .card-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paintings-wrapper .card-container .card{
+    width: 500px;
+    height: fit-content;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+    background-color: black;
+    margin: 20px;
+}
+
+.paintings-wrapper .card-container .card .cardimgs {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

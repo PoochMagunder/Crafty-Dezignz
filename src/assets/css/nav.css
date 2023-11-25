@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: fit-content;
+  height: auto;
   width: 100%;
   background-color: #f4b860;
 }
@@ -54,83 +54,59 @@ a.nav-link:focus {
   color: darkolivegreen;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1355px) {
   .Nav {
-    flex-direction: row;
+    flex-direction: column;
+    height: auto;
   }
 
   .Nav .nav-container {
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     font-size: auto;
+    padding-bottom: 30px;
   }
 
   .Nav .brand .title {
     font-size: auto;
-    padding: auto;
+    padding: 80px;
   }
 }
 
-@media screen and (max-width: 992px) {
-  .Nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-
+@media screen and (max-width: 993px) {
   .Nav .nav-container {
-    width: 100%;
-    text-align: right;
-    flex-direction: column;
+    width: fit-content;
   }
 
   .Nav .brand .title {
     font-size: 70px;
-    padding: 80px;
-    padding-right: 30px;
+    padding: 0;
+    padding-top: 30px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .Nav .nav-container {
-    width: 100%;
-    text-align: right;
-    flex-direction: column;
+    width: fit-content;
     padding-bottom: 30px;
   }
 
   .Nav .brand .title {
-    font-size: 50px;
-    padding: 70px;
-    padding-bottom: 30px;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 390px) {
-    .Nav .nav-container {
-      width: 100%;
-      text-align: right;
-      flex-direction: column;
-      padding-bottom: 30px;
-    }
-  
-    .Nav .brand .title {
-      font-size: 50px;
-      padding: 60px;
-      padding-bottom: 30px;
-    }
+  .Nav .brand .title {
+    padding: 27px;
   }
+}
 
-  @media screen and (max-width: 360px) {
-    .Nav .nav-container {
-      width: 100%;
-      text-align: right;
-      flex-direction: column;
-      padding-bottom: 30px;
-    }
-  
-    .Nav .brand .title {
-      font-size: 50px;
-      padding: 45px;
-      padding-bottom: 30px;
-    }
+@media screen and (max-width: 360px) {
+  .Nav .brand .title {
+    padding: 12px;
   }
+}
