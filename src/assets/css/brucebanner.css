@@ -1,0 +1,21 @@
+.banner {
+    width: 100%;
+    height: 300px ;
+    background-color: black;
+    border-top: black;
+    border-top-style: solid;
+    border-bottom:black; 
+    border-bottom-style: solid;  
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    z-index: -1; /* Place the video behind other content */
+  }
+  
+  .banner video {
+    object-fit: cover;
+    width: 100%;
+    height: 293px;
+  }

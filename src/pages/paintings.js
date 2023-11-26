@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import '../assets/css/paintings.css';
-import '../assets/css/banners.css'
 import img1 from '../assets/img/painting imgs/pumpkins.jpg';
 import img2 from '../assets/img/painting imgs/beehome.jpg';
 import img3 from '../assets/img/painting imgs/bookstack.jpg';
@@ -19,8 +18,6 @@ const paintings = () => {
 
     return (
         <div className="paintings-wrapper">
-            <div className="banner">
-            </div>
             <div className="card-container">
             <Card className="card" >
                 <Card.Img className="cardimgs" variant="top" src={img1} />
@@ -36,6 +33,9 @@ const paintings = () => {
             </Card>
             <Card className="card"  >
                 <Card.Img className="cardimgs" variant="top" src={img5} />
+            </Card>
+            <Card className="card"  >
+                <Card.Img className="cardimgs" variant="top" src={img6} />
             </Card>
             <Card className="card"  >
                 <Card.Img className="cardimgs" variant="top" src={img7} />

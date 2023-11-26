@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import '../assets/css/cross-stitch.css';
-import '../assets/css/banners.css';
 import img1 from '../assets/img/cross-stitch imgs/crashbandicoot.jpg';
 import img2 from '../assets/img/cross-stitch imgs/keychain.jpg';
 import img3 from '../assets/img/cross-stitch imgs/ninjaturtles.jpg';
@@ -14,8 +13,6 @@ const stitch = () => {
 
     return (
         <div className="stitch-wrapper">
-            <div className="banner">
-            </div>
             <div className="card-container">
                 <Card className="card">
                     <Card.Img className="cardimgs" variant="top" src={img1}></Card.Img>

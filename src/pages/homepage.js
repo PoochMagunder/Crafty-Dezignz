@@ -2,17 +2,15 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import '../assets/css/homepage.css';
-import '../assets/css/banners.css';
 import coasters from '../assets/img/coaster imgs/coaster1.jpg';
 import paintings from '../assets/img/painting imgs/pumpkins.jpg';
 import stitches from '../assets/img//cross-stitch imgs/ninjaturtles.jpg';
+
 
 const homepage = () => {
 
     return (
         <div className="homepage-wrapper">
-            <div className="banner">
-            </div>
             <div className="card-container">
             <Card as={Link} to="/paintings" className="card" >
                 <Card.Header>Paintings</Card.Header>
